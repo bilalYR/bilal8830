@@ -37,7 +37,7 @@ img{
 }
 
 #line5{
-     margin-top: 78px;
+    margin-top: 183px;
 }
 
 #rightdiv{
@@ -90,11 +90,12 @@ ul.a {
 
 .linkliine{
      text-decoration: none;
-     color:white;
+     color:teal;
      alt: inherit;
+     margin-left: 10px;
+     
+     
  }
-
- 
   
 
 
