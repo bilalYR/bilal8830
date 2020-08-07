@@ -3,6 +3,14 @@
 <head>
    <title>BILAL 8830 TASK 01</title>
    <link rel="stylesheet" href="style1.css">
+   <script>
+
+      function popup(){
+         val a = document.getElementById("txtname").value = 
+          alert("Nice to meet you");
+      }
+  </script>
+ 
 </head>
 <body>
    <div id="topdiv">
@@ -13,7 +21,7 @@
       </div>
 
       <div id="tab">
-         <form action="task2.html" method="get">
+         <form action="#" method="get" onsubmit="popup()">
             <label for=""><span>*</span> Must be enter value</label>
             <table border="1" cellpadding="5px" cellspacing="5px">
               
@@ -24,7 +32,7 @@
 
                <tr>
                   <th class="tabrow">Name <span>*</span></th>
-                  <th><input type="text" name="" id="" required></th>
+                  <th><input type="text" name="" id="txtname" required></th>
                </tr>
 
                <tr>
